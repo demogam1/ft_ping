@@ -1,0 +1,2 @@
+FQDN = Est le nom precis que le dns utilise pour trouver l'adresse ip.
+ICMP = protocol internet utiliser pour transmettre des information de diagnostique au differente machine du reseau.
