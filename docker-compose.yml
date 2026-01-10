@@ -1,0 +1,8 @@
+services:
+  ft_ping:
+    build: .
+    # stdin_open: true 
+    # tty: true          
+    container_name: ft_ping
+    volumes:
+      - ./:/usr/src/ft_ping
