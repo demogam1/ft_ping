@@ -1,2 +1,5 @@
 FQDN = Est le nom precis que le dns utilise pour trouver l'adresse ip.
 ICMP = protocol internet utiliser pour transmettre des information de diagnostique au differente machine du reseau.
+TTL = Nombre restant de sauts(passage par un routeur) restant avant que le paquets soit detruits. 
+Lorsque que le ttl de ce paquet atteint 0 alors le paquets est detruit et un message icmp est reenvoyer a l'expediteur avec le message
+"time exceeded".
